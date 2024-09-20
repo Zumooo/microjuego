@@ -36,13 +36,13 @@ public class nave : MonoBehaviour
         {
             transform.position = new Vector3(transform.position.x, 5.7f);
         }
-        if (transform.position.x > 11.3f)
+        if (transform.position.x > 9.5f)
         {
-            transform.position = new Vector3(-11.3f, transform.position.y);
+            transform.position = new Vector3(-9.5f, transform.position.y);
         }
-        if (transform.position.x < -11.3f)
+        if (transform.position.x < -9.5f)
         {
-            transform.position = new Vector3(11.3f, transform.position.y);
+            transform.position = new Vector3(9.5f, transform.position.y);
         }
     }
     public void OnTriggerEnter2D(Collider2D collision)
